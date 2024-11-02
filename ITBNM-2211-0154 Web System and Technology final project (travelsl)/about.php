@@ -1,0 +1,121 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="styles.css" />
+    <script src="https://unpkg.com/scrollreveal"></script>
+    <title>Travel.SriLanka</title>
+  </head>
+<body>
+ <header id="home">
+    <nav>
+      <div class="nav__bar">
+        <div class="nav__logo"><a href="#">Travel.<br>SriLanka</a></div>
+        <ul class="nav__links">
+          <li class="link"><a href="index.php">Home</a></li>
+          <li class="link"><a href="gallery.php">Gallery</a></li>
+          <li class="link"><a href="contactus.php">Contact</a></li>
+          <li class="link"><a href="about.php">About Us</a></li>
+          <li class="link search">
+            <span><i class="ri-search-line"></i></span>
+          </li>
+        </ul>
+      </div>
+    </nav>
+ </header>
+
+  <section class="about" id="about">
+    <div class="section__container about__container">
+      <div class="about__content">
+        <h2 class="section__header">About us</h2>
+        <p class="section__subheader">
+          Our mission is to ignite the spirit of discovery in every traveler's heart, 
+          offering meticulously crafted itineraries that blend adrenaline-pumping activities 
+          with awe-inspiring landscapes. Embark on a voyage of a lifetime with us, as we redefine the art of exploration.
+        </p>
+        <div class="about__flex">
+          <div class="about__card">
+            <h4>268</h4>
+            <p>Completed Trips</p>
+          </div>
+          <div class="about__card">
+            <h4>176</h4>
+            <p>Tour Guides</p>
+          </div>
+          <div class="about__card">
+            <h4>153</h4>
+            <p>Destinations</p>
+          </div>
+        </div>
+        <button class="btn">
+          Read More <i class="ri-arrow-right-line"></i>
+        </button>
+      </div>
+      <div class="about__image">
+        <img src="assets/about.png" alt="about" />
+      </div>
+    </div>
+  </section>
+
+  <section class="contact" id="contact">
+    <div class="section__container contact__container">
+      <div class="contact__col">
+        <h4>Contact a travel researcher</h4>
+        <p>We always aim to reply within 24 hours.</p>
+      </div>
+      <div class="contact__col">
+        <div class="contact__card">
+          <span><i class="ri-phone-line"></i></span>
+          <h4>Call us</h4>
+          <h5>+94 7654321215</h5>
+          <p>We are online now</p>
+        </div>
+      </div>
+      <div class="contact__col">
+        <div class="contact__card">
+          <span><i class="ri-mail-line"></i></span>
+          <h4>Send us an email</h4>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <section class="footer"></section>
+      <div class="section__container footer__container">
+        <h4>Travel.SriLanka</h4>
+        <div class="footer__socials">
+          <span>
+            <a href="#"><i class="fa fa-facebook"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="fa fa-instagram"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="fa fa-twitter"></i></a>
+          </span>
+          <span>
+            <a href="#"><i class="fa fa-whatsapp"></i></a>
+          </span>
+        </div>
+        <p>
+          Many people feel that there is a limited
+          amount of abundance, wealth, or chance to succeed in life. Work, Travel, Save, Repeat.
+        </p>
+        <ul class="footer__nav">
+          <li class="footer__link"><a href="#home">Home</a></li>
+          <li class="footer__link"><a href="#accommodation">Accommodation</a></li>
+          <li class="footer__link"><a href="#gallery">Gallery</a></li>
+          <li class="footer__link"><a href="#contact">Contact</a></li>
+          <li class="footer__link"><a href="#about">About Us</a></li>
+        </ul>
+      </div>
+      <div class="footer__bar">
+        Copyright © 2024 Travel.SriLanka.<br> All rights reserved.
+      </div>
+    </section>
+
+  <script src="main.js"></script>
+</body>
+</html>
